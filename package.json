@@ -1,0 +1,28 @@
+{
+  "name": "eventhorizon",
+  "version": "1.0.0",
+  "description": "Project for the discipline of \"Sistemas Embarcados\" ministered by Professor Ana Cristina Vendramin, at Universidade Tecnológica Federal do Paraná.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateusBittencourt/EventHorizon.git"
+  },
+  "author": "Mateus Bittencourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MateusBittencourt/EventHorizon/issues"
+  },
+  "homepage": "https://github.com/MateusBittencourt/EventHorizon#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^4.3.2",
+    "amqplib": "^0.10.3",
+    "inquirer": "^9.2.17",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  }
+}
